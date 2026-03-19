@@ -1,0 +1,33 @@
+【検定用：授業のポイント】
+■エキスパート：模擬問題1・実技（動物園）
+
+・問題2-（5）：link要素の設定
+<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 480px)">
+について、シミュレーターではなくて、実際にブラウザの横幅を縮めて確認する。
+しかし480px以下には物理的にできないため、720pxなど値を変えてレスポンシブCSSが反映されているか確認する。
+
+・問題3-(2)：.about_area:last-child
+.about:nth-child(odd)、:nth-child(even)、:nth-child(5)　
+など奇数や偶数、入力値のアイテムなどを選択することもできると補足説明する。
+
+・問題5-(3)： 設定2：サムネイルの設定
+.animals_area figure:first-child⇒ゴリラ、ニホンザル、ツキノワグマ
+
+div.animals_areaの横幅は550px しかし.animals_area figureの幅は265pxとmargin左が20pxのため2つ並べようと思うと表示できない。これをカラム落ちという。
+そのため、次のCSSで最初のfigureのmargin左を0にして、2列に並ぶようにしている。
+
+■エキスパート：模擬問題2・知識（不動産サイト）
+
+・問題1-4：アンチエイリアスはガビガビを滑らかに
+・問題1-12：&lt;（less than・小なり）&gt;（greater than・大なり）
+&nbsp;（non break space・半角スペース）&amp;（アンパサンド）
+
+・問題2-4：属性「id="red"」と「class="blue green"」があるdiv要素にスタイルを設定する場合、セレクターとして正しいもの⇒ウ．div#red.blue.green
+このように、セレクタをつなげて書く場合とスペースを空ける場合、> を使う場合の使い分け
+・問題2-5：2桁がそろっているものを選ぶ
+
+
+■エキスパート：模擬問題3・知識（ホテルサイト）
+・問題2-3：回り込みを解除するプロパティclear: both;（left、rightもあり）だが、#contentsの疑似要素を使用して
+
+・問題2-4：正解PDFはエだが現在はウで、すべての機種でプラグインをインストールできなくなっている。
